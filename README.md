@@ -1,4 +1,4 @@
-# Cloud-Native-Application-Nanodgree-1st-Project
+# Cloud-Native-Application-Nanodegree-1st-Project
 ## first project out of four project
 
 ## Project Overview
