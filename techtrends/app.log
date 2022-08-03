@@ -1,0 +1,30 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.2:3111/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.2:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:27:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:27:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article is successfully found
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:27:53] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:27:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:About request successfully was retrieved
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:27:58] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:27:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:07] "[33mGET /fsdfd HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:09] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Article "test" was created successfully
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:14] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:The article is successfully found
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:16] "GET /10 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:healthz  request successfull
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:22] "GET /healthz HTTP/1.1" 200 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:32] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.2 - - [04/Aug/2022 00:28:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
