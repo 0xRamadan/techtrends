@@ -3,6 +3,9 @@ namespace:
 
 replicaCount: 3
 
+image:
+  pullPolicy: IfNotPresent
+
 service:
   port: 5111
 
