@@ -1,3 +1,4 @@
+from glob import glob
 import sqlite3
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
@@ -10,8 +11,10 @@ db_connection_count = 0
 
 
 def get_db_connection():
+    global db_connection_count
     connection = sqlite3.connect('database.db')
     connection.row_factory = sqlite3.Row
+    db_connection_count += 1
     return connection
 
 # Function to get a post using its ID
