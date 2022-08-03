@@ -32,4 +32,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: RaymondReddigton/techtrends:latest
+          tags: raymondreddigton/techtrends:latest
