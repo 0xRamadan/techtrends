@@ -32,4 +32,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: raymondreddigton/techtrends:latest
+          tags: raymondreddigton/cloud-native-application-nanodgree-1st-project/techtrends:latest

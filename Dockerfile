@@ -2,7 +2,7 @@ FROM python:3.8
 
 LABEL maintainer="Mahmoud Ramadan"
 
-COPY ./techtrends/ /app
+COPY ./techtrends/ /app/
 
 WORKDIR /app
 
